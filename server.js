@@ -79,7 +79,7 @@ app.post('/', async (req, res) => {
 
     console.log(`Received message from ${phoneNumber}: ${text}`);
 
-    const responseMessage = `You said: ${text}`;
+    const responseMessage = `tu dices: ${text}`;
 
     await sendMessage(phoneNumber, responseMessage);
 
