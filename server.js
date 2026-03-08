@@ -7,7 +7,7 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 const verifyToken = process.env.VERIFY_TOKEN;
-const apiVersion = 'v19.0';
+const apiVersion = 'v22.0';
 const businessPhone = process.env.PHONE_NUMBER_ID;
 
 // function to send message
